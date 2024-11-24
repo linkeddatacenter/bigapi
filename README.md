@@ -16,7 +16,7 @@ BIGAPI pragmatically answers two fundamental questions and can be tailored to me
 
 ## Key Features
 - **Documentation structure:** Provides everything you need to construct, communicate, and document your software architecture, making the process practical and less burdensome.
-- **Inspirations and Foundations:** Draws inspiration from the W3C architecture, ARC42 architectural template, and the C4 model, built upon practical experience from numerous systems across various domains.
+- **Inspirations and Foundations:** Draws inspiration from the W3C [WEB architecture](https://www.w3.org/TR/webarch/), [ARC42](https://arc42.org/) architectural template, and the [C4 model](https://c4model.com/), built upon practical experience from numerous systems across various domains.
 - **Technology Agnostic:** Supports arbitrary technologies and tools, ensuring versatility across different projects and platforms.
 - **Process-Agnostic:** Completely independent of specific processes, making it well-suited for lean and agile development approaches.
 - **Open Source:** Available with  open-source license and free to use in non-commercial situations. Refer to our license page for more details.
@@ -27,14 +27,14 @@ The name **BIGAPI** is a scrambled acronym for "**Perceive Its Beauty, Acknowled
 
 The idea is to highlight how elegance and beauty can manifest in software architecture, much like patterns in nature. By creating systems with recognizable structures and balanced, lightweight components, aesthetic principles guide the design even before functional requirements. Graceful and well-proportioned architecture leads to software that is not only efficient but also intuitively understandable.
 
+
 ## Benefits
-
 - **Enhanced Communication:** Offers a structured template for documenting and communicating software and system architectures, promoting better understanding among team members and stakeholders.
-
 - **Flexible Detailing:** Allows the creation of architectural documentation at various levels of detail, accommodating different perspectives and requirements.
 
 ## Template
 We provide you with the **BIGAPI template** for architectural documentation — a comprehensive index designed to simplify your documentation process. This template serves as a structured framework where you can seamlessly **fill in your architecture decisions**, capturing every critical aspect of your system's design. By using BIGAPI, the once daunting task of documenting your architecture becomes **simple, effective, and painless**, allowing you to focus more on developing robust solutions rather than getting bogged down by complex documentation procedures.
+
 
 ### Architectural documentation organization
 The architectural documentation shoud be organized in 10 sections:
@@ -49,14 +49,13 @@ The architectural documentation shoud be organized in 10 sections:
 9) **Roles**: Mission and skills required in the project operations
 10) **Processes**: The ways to make things done
 
+
 ### Getting Started
 Information in this section helps your user understand your project by themselves.
-
 * What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
-
 * Introductory road map
 
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.:
+Consider using the headings below for your getting started page. You can delete any that are not applicable to your project:
 
 ```markdown
 ## What is <your project name>?
@@ -159,6 +158,7 @@ The foundational framework that supports the requirements, development, deployme
 
 ```
 
+
 ### Architecture
 The architecture is a composition of  three different perspectives providing a common understanding to different point of view of the product:
 - Business analyst looks to the **functional view**
@@ -184,7 +184,6 @@ The functional view looks at the your project with the user eyes; it define the 
 
 The functional view of your project  consists in a hierarchies of modulese, feature sheets, features and functionalities. A module is a composition of feature sheets that is a document that describe a set of related features. Features can depends from other features; the features with no dependencies are called functionalities.
 
-
 ```plantuml
 folder "Modules" as Module
 file "Feature Sheets" as FeatureSheet
@@ -207,7 +206,6 @@ In this section you should address:
 - principles (e.g. Twelve-Factor Application)
 - Layer breakdown
 - Style guides and naming conventions
-
 
 You can use the C4 component diagrams or UML
 
