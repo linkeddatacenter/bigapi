@@ -19,7 +19,7 @@ BIGAPI pragmatically answers two fundamental questions and can be tailored to me
 - **Inspirations and Foundations:** Draws inspiration from the W3C architecture, ARC42 architectural template, and the C4 model, built upon practical experience from numerous systems across various domains.
 - **Technology Agnostic:** Supports arbitrary technologies and tools, ensuring versatility across different projects and platforms.
 - **Process-Agnostic:** Completely independent of specific processes, making it well-suited for lean and agile development approaches.
-- **Open Source:** Available as open-source software and free to use in non-commercial situations. Refer to our license page for more details.
+- **Open Source:** Available with  open-source license and free to use in non-commercial situations. Refer to our license page for more details.
 
 
 ## Philosophy Behind the Name
@@ -259,5 +259,5 @@ BIGAPI is open-source and can be used free of charge, in non-commercial and priv
 
 
 ## Contributing to this site
-A great way to contribute to the site is to create an [issue](https://github.com/linkeddatacenter/kees/issues) on GitHub when you encounter a problem or something. We always appreciate it. You can also edit the code by yourself and create a pull request.
+A great way to contribute to the site is to create an [issue](https://github.com/linkeddatacenter/bigapi/issues) on GitHub when you encounter a problem or something. We always appreciate it. You can also edit the code by yourself and create a pull request.
 
