@@ -255,7 +255,7 @@ Here is where you document process and task in your project. For example:
 
 
 ## License
-BIGAPI is open-source and can be used free of charge, in non-commercial and private situations. See our [license](LICENSE) page for details.
+BIGAPI is a research project by [LinkedData.Center](https://linkeddata.center) it is released open-source and can be used free of charge, for non-commercial and private situations. See our [license](LICENSE) page for details.
 
 
 ## Contributing to this site
