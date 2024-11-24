@@ -160,7 +160,8 @@ The foundational framework that supports the requirements, development, deployme
 
 
 ### Architecture
-The architecture is a composition of  three different perspectives providing a common understanding to different point of view of the product:
+The architecture is a composition of four different perspectives providing a common understanding to different point of view of the product:
+- The **system view** presents an overview of the whole system
 - Business analyst looks to the **functional view**
 - Data engineer looks to the **data view**
 - Developer looks to the **component  view**
