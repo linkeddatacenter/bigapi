@@ -1,13 +1,11 @@
 
-
-
 ## Architecture
 The architecture is a composition of  three different perspectives providing a common understanding to different point of view of the product:
-- Business analyst looks to the **functional view**
-- Data engineer looks to the **data view**
-- Developer looks to the **component  view**
+- Business analysts look to the **functional view**
+- Data engineers look to the **data view**
+- Developers look to the **component  view**
 
-Ath the home of the architecture you can add a system view using [C4 model diagrams](https://c4model.com/). For picture consider using a textual based tool like PlantUML or mermaid. For example (with plantUML)
+As overview  of the architecture section you should add a system context view using the [C4 model diagrams](https://c4model.com/). For diagrams,  consider using a textual based tool like PlantUML or mermaid. For example (with plantUML)
 
 ```plantuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
@@ -21,11 +19,12 @@ Rel(user, system, "Uses", )
 Rel(system, solid, "HTTPS", "SOLID OIDC, LDP")
 Rel(system, billing, "HTTPS", "accounting info")
 ```
+
+
 ### Functional view
-The functional view looks at the your project with the user eyes; it define the features realized by the components designed in the technical view grounding by the data semantic defined in the data view.
+The functional view looks at your project with the user eyes; it defines the features realized by the components designed in the technical view grounding by the data semantic defined in the data view.
 
-The functional view of your project  consists in a hierarchies of modulese, feature sheets, features and functionalities. A module is a composition of feature sheets that is a document that describe a set of related features. Features can depends from other features; the features with no dependencies are called functionalities.
-
+The functional view  consists in a hierarchies of modulese, feature sheets, features and functionalities. A module is a composition of feature sheets that is a document that describe a set of related features. Features can depends from other features; the features with no dependencies are called functionalities.
 
 ```plantuml
 folder "Modules" as Module
@@ -38,7 +37,7 @@ Feature ..> Feature
 Feature <|-- Functionality
 ```
 
-You should also define  your feature life cycle according ITIL best practices.
+You should also define  your feature life cycle, for example according ITIL best practices.
 
 
 ### Technical view
@@ -49,7 +48,6 @@ In this section you should address:
 - principles (e.g. Twelve-Factor Application)
 - Layer breakdown
 - Style guides and naming conventions
-
 
 You can use the C4 component diagrams or UML
 
