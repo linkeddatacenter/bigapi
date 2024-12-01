@@ -1,13 +1,13 @@
 ![logo](http://linkeddata.center/resources/v4/logo/Logo-colori-trasp_oriz-640x220.png)
 
 # Perceive Its Beauty, Acknowledge Its Grace
-**BIGAPI** is an architectural design pattern and template that simplifies communication and documentation of software architectures. It is tailored for modern, data-centric, cloud-native applications, aligning with best practices recommended by the W3C consortium.
+**BIGAPI** is a design pattern that simplifies communication and documentation of software architectures. It is tailored for data-centric, cloud-native applications, aligning with best practices recommended by the W3C.
 
 BIGAPI helps software development teams in two key areas:
 1. **Initial Design:** Providing a structured approach to describe software architecture during early development phases.
 2. **Retrospective Documentation:** Simplifying the process of documenting existing codebases.
 
-The framework enables teams to create "code maps" at varying levels of detail, catering to different perspectives and use cases. By streamlining documentation and leveraging established best practices, BIGAPI enhances collaboration and understanding across diverse technologies and development methodologies. It is an invaluable resource for teams building modern applications.
+The template enables teams to create "code maps" at varying levels of detail, catering to different perspectives and use cases. By streamlining documentation and leveraging established best practices, BIGAPI enhances collaboration and understanding across diverse technologies and development methodologies. It is an invaluable resource for teams building modern applications.
 
 
 ### Purpose
@@ -54,15 +54,15 @@ The architectural documentation template is be organized in 10 sections:
 - [Glossary](template/glossary.md): The main terms used in the project jargon
 - [Architecture](template/architecture.md): The system big picture according different points of view
 - [Features](template/features.md): The feature sheets that catalogues all the features implemented by the system
-- [Components](template/components.md): TShe catalog of the technical components and configuration items that buildsup the project
+- [Components](template/components.md): The catalog of the technical components and configuration items that buildsup the project
 - [Stereotypes](template/stereotypes.md): The source of truth for shared pieces of component documentation.
-- [Skills](template/skills.md): Competence required in  roles
+- [Skills](template/skills.md): Competence required in roles
 - [Roles](template/roles.md): Mission and skills required in the project operations
 - [Processes](template/processes.md): The ways to make things done
 
 
 ## License
-BIGAPI is a research project by [LinkedData.Center](https://linkeddata.center) it is released open-source and can be used free of charge, for non-commercial and private situations. See our [license](LICENSE) page for details.
+BIGAPI is a continuosly ongoing research project by [LinkedData.Center](https://linkeddata.center) it is released open-source and can be used free of charge, for non-commercial and private situations. See our [license](LICENSE) page for details.
 
 
 ## Contributing to this site
