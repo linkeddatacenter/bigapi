@@ -1,25 +1,32 @@
 ![logo](http://linkeddata.center/resources/v4/logo/Logo-colori-trasp_oriz-640x220.png)
 
-Perceive Its Beauty, Acknowledge Its Grace
-==========================================
+# Perceive Its Beauty, Acknowledge Its Grace
+**BIGAPI** is an architectural design pattern and template that simplifies communication and documentation of software architectures. It is tailored for modern, data-centric, cloud-native applications, aligning with best practices recommended by the W3C consortium.
 
-**BIGAPI** is an architectural design pattern and template designed for effective communication and documentation of software architectures. It addresses modern data-centered, cloud-native applications based on the best practices promoted by the W3C consortium. BIGAPI assists software development teams in describing and communicating software architecture during both initial design sessions and retrospective documentation of existing codebases. It facilitates the creation of "maps of your code" at various levels of detail, considering different points of view.
+BIGAPI helps software development teams in two key areas:
+1. **Initial Design:** Providing a structured approach to describe software architecture during early development phases.
+2. **Retrospective Documentation:** Simplifying the process of documenting existing codebases.
 
-BIGAPI streamlines the process of documenting and communicating software architecture, making it more manageable and efficient. By leveraging proven practices and supporting a wide range of technologies and development methodologies, BIGAPI serves as a valuable tool for teams developing modern applications.
+The framework enables teams to create "code maps" at varying levels of detail, catering to different perspectives and use cases. By streamlining documentation and leveraging established best practices, BIGAPI enhances collaboration and understanding across diverse technologies and development methodologies. It is an invaluable resource for teams building modern applications.
 
 
-## Purpose
-BIGAPI pragmatically answers two fundamental questions and can be tailored to meet specific needs:
+### Purpose
+BIGAPI pragmatically addresses two essential questions while remaining adaptable to specific project needs:
 
-- What should you document/communicate about your architecture?
-- How should you document/communicate it?
+- **What aspects of your architecture should you document or communicate?**
+- **How should you document or communicate them?**
 
-## Key Features
-- **Documentation structure:** Provides everything you need to construct, communicate, and document your software architecture, making the process practical and less burdensome.
-- **Inspirations and Foundations:** Draws inspiration from the W3C [WEB architecture](https://www.w3.org/TR/webarch/), [ARC42](https://arc42.org/) architectural template, and the [C4 model](https://c4model.com/), built upon practical experience from numerous systems across various domains.
-- **Technology Agnostic:** Supports arbitrary technologies and tools, ensuring versatility across different projects and platforms.
-- **Process-Agnostic:** Completely independent of specific processes, making it well-suited for lean and agile development approaches.
-- **Open Source:** Available with  open-source license and free to use in non-commercial situations. Refer to our license page for more details.
+
+### Key Features
+- **Structured Documentation:** Provides a comprehensive framework to construct, communicate, and document your software architecture, reducing complexity and effort.  
+- **Proven Foundations:** Inspired by industry-standard models and practices, including:  
+  - [W3C WEB Architecture](https://www.w3.org/TR/webarch/)  
+  - [ARC42 Architectural Template](https://arc42.org/)  
+  - [C4 Model](https://c4model.com/)  
+  BIGAPI is built on practical experience from a wide range of systems and domains.  
+- **Technology Agnostic:** Designed to work seamlessly with any technology stack or tooling.  
+- **Process Agnostic:** Independent of specific methodologies, making it ideal for lean, agile, or hybrid development processes.  
+- **Open Source:** Freely available under an open-source license for non-commercial use. For more details, visit our license page.  
 
 
 ## Philosophy Behind the Name
@@ -28,13 +35,18 @@ The name **BIGAPI** is a scrambled acronym for "**Perceive Its Beauty, Acknowled
 The idea is to highlight how elegance and beauty can manifest in software architecture, much like patterns in nature. By creating systems with recognizable structures and balanced, lightweight components, aesthetic principles guide the design even before functional requirements. Graceful and well-proportioned architecture leads to software that is not only efficient but also intuitively understandable.
 
 
-## Benefits
-- **Enhanced Communication:** Offers a structured template for documenting and communicating software and system architectures, promoting better understanding among team members and stakeholders.
-- **Flexible Detailing:** Allows the creation of architectural documentation at various levels of detail, accommodating different perspectives and requirements.
+### Benefits
+- **Enhanced Communication:** Provides a structured template for documenting and communicating software and system architectures, fostering better understanding and alignment among team members and stakeholders.  
+- **Flexible Detailing:** Enables the creation of architectural documentation at various levels of detail, tailored to different perspectives and project requirements.  
 
 
-## Template
-We provide you with the **BIGAPI template** for architectural documentation — a comprehensive index designed to simplify your documentation process. This template serves as a structured framework where you can seamlessly **fill in your architecture decisions**, capturing every critical aspect of your system's design. By using BIGAPI, the once daunting task of documenting your architecture becomes **simple, effective, and painless**, allowing you to focus more on developing robust solutions rather than getting bogged down by complex documentation procedures.
+### Template
+The **BIGAPI Template** simplifies architectural documentation with a well-structured, comprehensive framework. It provides a detailed index to help you:
+
+- Seamlessly document your **architecture decisions**, ensuring all critical aspects of your system design are captured.  
+- Transition from complex, overwhelming documentation tasks to a **streamlined and effective process**.  
+
+With BIGAPI, creating architectural documentation becomes a **simple, painless experience**, allowing you to focus on developing robust and innovative solutions instead of struggling with documentation complexities.
 
 The architectural documentation template is be organized in 10 sections:
 - [Getting Started](template/getting-started.md): What do you need to know about the project
