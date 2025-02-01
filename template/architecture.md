@@ -1,9 +1,9 @@
 
 ## Architecture
 The architecture is a composition of  three different perspectives providing a common understanding to different point of view of the product:
-- Business analysts look to the **functional view**
-- Data engineers look to the **data view**
-- Developers look to the **component  view**
+- Business analysts look to the **functional view** (aka _Business Architecture_ )
+- Data engineers look to the **data view** (aka _Information Architecture_)
+- Developers look to the **technical  view** (aka Application/Technology/Infrastructure/Security Architecture)
 
 As overview  of the architecture section you should add a system context view using the [C4 model diagrams](https://c4model.com/). For diagrams,  consider using a textual based tool like PlantUML or mermaid. For example (with plantUML)
 
@@ -24,7 +24,7 @@ Rel(system, billing, "HTTPS", "accounting info")
 ### Functional view
 The functional view looks at your project with the user eyes; it defines the features realized by the components designed in the technical view grounding by the data semantic defined in the data view.
 
-The functional view  consists in a hierarchies of modulese, feature sheets, features and functionalities. A module is a composition of feature sheets that is a document that describe a set of related features. Features can depends from other features; the features with no dependencies are called functionalities.
+The functional view  consists in a hierarchies [product sheets](https://w3id.org/itsmo#ProductSheet), [feature sheets](https://w3id.org/itsmo#FeatureSheet), features] and other business related [configuration items](https://w3id.org/itsmo#ProductSheet).
 
 ```plantuml
 folder "Modules" as Module
@@ -47,6 +47,8 @@ In this section you should address:
 - the application focus
 - principles (e.g. Twelve-Factor Application)
 - Layer breakdown
+- Infrastructure requirements
+- Securirty requirements
 - Style guides and naming conventions
 
 You can use the C4 component diagrams or UML
