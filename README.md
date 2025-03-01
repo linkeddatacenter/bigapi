@@ -48,18 +48,19 @@ The **BIGAPI Template** simplifies architectural documentation with a well-struc
 
 With BIGAPI, creating architectural documentation becomes a **simple, painless experience**, allowing you to focus on developing robust and innovative solutions instead of struggling with documentation complexities.
 
-The architectural documentation template is be organized in 10 sections:
+The architectural documentation template is be organized in the following sections:
 - [Getting Started](template/getting-started.md): What do you need to know about the project
 - [Conformance](template/conformance.md): Regulatory compliance and industry standards adopted by Argento.
 - [Glossary](template/glossary.md): The main terms used in the project jargon
+- [Typographic conventions ](template/typography.md): Legends and typographic convention in diagrams
 - [Architecture](template/architecture.md): The system big picture according different points of view
 - [Features](template/features.md): The feature sheets that catalogues all the features implemented by the system
-- [Components](template/components.md): The catalog of the technical components and configuration items that buildsup the project
 - [Stereotypes](template/stereotypes.md): The source of truth for shared pieces of component documentation.
 - [Skills](template/skills.md): Competence required in roles
 - [Roles](template/roles.md): Mission and skills required in the project operations
 - [Processes](template/processes.md): The ways to make things done
 
+For modular software system you can add an additional section that contain the  _product_ or _modules_ catalogue, 
 
 ## License
 BIGAPI is a continuosly ongoing research project by [LinkedData.Center](https://linkeddata.center) it is released open-source and can be used free of charge, for non-commercial and private situations. See our [license](LICENSE) page for details.
