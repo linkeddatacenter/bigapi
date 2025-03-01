@@ -31,11 +31,16 @@ For example:
 	```
 
 
-	### C4 Container diagrams as UML deploy diagrams
+	### Context diagrams
+	The [System Context Diagram](https://c4model.com/diagrams/system-context) notation from the  C4 Model is used
+
+	![C1 example](https://static.structurizr.com/workspace/76748/diagrams/SystemContext.png)
+
+
+	### Container diagrams as deploy diagrams
 	The UML _deployment diagram_ in cloud native application context is similar to the _Container diagram_ in the C4 model container. The UML _deployment diagram_ is to be preferred because it allows more freedom degree in describing how [System components](https://w3id.org/itsmo/SystemComponent) interacts, for example you can say that a components is a customization of a standard component. 
 
-
-	System components are represented as nodes in a UML deploy diagram and they may conform to one or more [stereotypes]({{<ref stereotype>}}). Each stereotype may also be indicated with an Icon on a node image.
+	System components are represented as nodes in a UML deploy diagram and they may conform to one or more _stereotypes_. Each stereotype may also be indicated with an Icon on a node image.
 	a  line represents a logic dependency relation as in the C4 container diagram semantic. 
 
 
@@ -74,6 +79,6 @@ For example:
 	The exact meaning depends from the scope of the diagram.
 
 
-	### Requirements
+	### Conventional notation for requirements
 	Requirements are expressed with a combination of descriptive assertions and [RFC 2119](https://tools.ietf.org/html/rfc2119) terminology. The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** in the normative parts of this document are to be interpreted as described in RFC 2119.  However, for readability, these words may not always appear in uppercase letters in this specification.
 
