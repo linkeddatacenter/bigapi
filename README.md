@@ -1,7 +1,11 @@
 ![logo](http://linkeddata.center/resources/v4/logo/Logo-colori-trasp_oriz-640x220.png)
 
 # Perceive Its Beauty, Acknowledge Its Grace
+The name **BIGAPI** is a scrambled acronym for "**Perceive Its Beauty, Acknowledge Its Grace**": **B**eauty, **I**ts, **G**race, **A**cknowledge, **P**erceive, **I**ts.
+
 **BIGAPI** is a design pattern that simplifies communication and documentation of software architectures. It is tailored for data-centric, cloud-native applications, aligning with best practices recommended by the W3C.
+
+The idea is to highlight how elegance and beauty can manifest in software architecture, much like patterns in nature. By creating systems with recognizable structures and balanced, lightweight components, aesthetic principles guide the design even before functional requirements. Graceful and well-proportioned architecture leads to software that is not only efficient but also intuitively understandable.
 
 BIGAPI helps software development teams in two key areas:
 1. **Initial Design:** Providing a structured approach to describe software architecture during early development phases.
@@ -10,14 +14,14 @@ BIGAPI helps software development teams in two key areas:
 The template enables teams to create "code maps" at varying levels of detail, catering to different perspectives and use cases. By streamlining documentation and leveraging established best practices, BIGAPI enhances collaboration and understanding across diverse technologies and development methodologies. It is an invaluable resource for teams building modern applications.
 
 
-### Purpose
+## Purpose
 BIGAPI pragmatically addresses two essential questions while remaining adaptable to specific project needs:
 
 - **What aspects of your architecture should you document or communicate?**
 - **How should you document or communicate them?**
 
 
-### Key Features
+## Key Features
 - **Structured Documentation:** Provides a comprehensive framework to construct, communicate, and document your software architecture, reducing complexity and effort.  
 - **Proven Foundations:** Inspired by industry-standard models and practices, including:  
   - [W3C WEB Architecture](https://www.w3.org/TR/webarch/)  
@@ -29,18 +33,12 @@ BIGAPI pragmatically addresses two essential questions while remaining adaptable
 - **Open Source:** Freely available under an open-source license for non-commercial use. For more details, visit our license page.  
 
 
-## Philosophy Behind the Name
-The name **BIGAPI** is a scrambled acronym for "**Perceive Its Beauty, Acknowledge Its Grace**": **B**eauty, **I**ts, **G**race, **A**cknowledge, **P**erceive, **I**ts.
-
-The idea is to highlight how elegance and beauty can manifest in software architecture, much like patterns in nature. By creating systems with recognizable structures and balanced, lightweight components, aesthetic principles guide the design even before functional requirements. Graceful and well-proportioned architecture leads to software that is not only efficient but also intuitively understandable.
-
-
-### Benefits
+## Benefits
 - **Enhanced Communication:** Provides a structured template for documenting and communicating software and system architectures, fostering better understanding and alignment among team members and stakeholders.  
 - **Flexible Detailing:** Enables the creation of architectural documentation at various levels of detail, tailored to different perspectives and project requirements.  
 
 
-### Template
+## Template
 The **BIGAPI Template** simplifies architectural documentation with a well-structured, comprehensive framework. It provides a detailed index to help you:
 
 - Seamlessly document your **architecture decisions**, ensuring all critical aspects of your system design are captured.  
@@ -68,4 +66,3 @@ BIGAPI is a continuosly ongoing research project by [LinkedData.Center](https://
 
 ## Contributing to this site
 A great way to contribute to the site is to create an [issue](https://github.com/linkeddatacenter/bigapi/issues) on GitHub when you encounter a problem or something. We always appreciate it. You can also edit the code by yourself and create a pull request.
-
