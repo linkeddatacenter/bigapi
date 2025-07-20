@@ -60,9 +60,12 @@ The architectural documentation template is be organized in the following sectio
 
 For modular software system you can add an additional section that contain the  _product_ or _modules_ catalogue, 
 
-## License
-BIGAPI is a continuosly ongoing research project by [LinkedData.Center](https://linkeddata.center) it is released open-source and can be used free of charge, for non-commercial and private situations. See our [license](LICENSE) page for details.
-
-
 ## Contributing to this site
 A great way to contribute to the site is to create an [issue](https://github.com/linkeddatacenter/bigapi/issues) on GitHub when you encounter a problem or something. We always appreciate it. You can also edit the code by yourself and create a pull request.
+
+
+## License
+BIGAPI is an ongoing research project by [LinkedData.Center](https://linkeddata.center). It is released as open-source and can be used free of charge for non-commercial and private purposes. See our [license](LICENSE) page for details.
+
+[![Creative Commons License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
+
