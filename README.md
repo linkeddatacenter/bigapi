@@ -1,4 +1,4 @@
-![logo](http://linkeddata.center/resources/v4/logo/Logo-colori-trasp_oriz-640x220.png)
+![logo](https://linkeddata.center/resources/v4/logo/Logo-colori-trasp_oriz-640x220.png)
 
 # Perceive Its Beauty, Acknowledge Its Grace
 The name **BIGAPI** is a scrambled acronym for "**Perceive Its Beauty, Acknowledge Its Grace**": **B**eauty, **I**ts, **G**race, **A**cknowledge, **P**erceive, **I**ts.
